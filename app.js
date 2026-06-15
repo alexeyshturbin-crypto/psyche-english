@@ -21,7 +21,9 @@
     { id: "ego_self",    emoji: "🧱", name: "Эго-психология и Self", desc: "Hartmann, Kohut, самость, нарциссизм" },
     { id: "development", emoji: "🌱", name: "Развитие", desc: "Психосексуальные стадии, привязанность" },
     { id: "clinical",    emoji: "🩺", name: "Клинические понятия", desc: "Психопатология, диагностика, симптомы" },
+    { id: "alvarez",     emoji: "🧒", name: "Детский психоанализ (Alvarez)", desc: "«Live Company»: аутичные, пограничные, депривированные дети" },
     { id: "contemporary",emoji: "🔗", name: "Современный психоанализ", desc: "Реляционный подход, интерсубъективность" },
+    { id: "relational",  emoji: "💬", name: "Реляционный психоанализ", desc: "Psychoanalytic Dialogues: self-states, enactment, recognition" },
   ];
   const moduleById = (id) => MODULES.find(m => m.id === id) || MODULES[0];
 
